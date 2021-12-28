@@ -1,0 +1,1 @@
+This is a v1 of my new website design. Expect lots of flaws. I'm going to try to keep my code simple because i tend to overthink the codes. 
