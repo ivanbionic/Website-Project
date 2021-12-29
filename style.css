@@ -1,0 +1,58 @@
+body {
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+}
+
+/* this is the first portion */
+.header {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #1f2937;
+    padding: 8px 8px 75px 8px;
+}
+
+ul {
+    list-style-type: none;
+    display: flex;
+    gap: 12px;
+    margin: 0;
+    padding: 0;
+  }
+  
+  a {
+    font-size: 18px;
+    padding: 8px;
+    text-decoration: none;
+    color: #f9faf8;
+  }
+
+.info {
+    width: 500px;
+    height: auto;
+}
+
+.infocard{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 32px;
+    background-color: #1f2937;
+    padding: 30px;
+}
+
+#headshot {
+    width: 200px;
+    height: auto;
+    flex-shrink: 0;
+}
+
+.button {
+    background-color: #3882f6;
+    border: none;
+    color: #f9faf8;
+    padding: 8px;
+    border-radius: 10px;
+    margin-top: 16px;
+}
