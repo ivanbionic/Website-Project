@@ -28,7 +28,7 @@ ul {
     color: #f9faf8;
   }
 
-.info {
+.aboutme {
     width: 500px;
     height: auto;
 }
@@ -56,3 +56,31 @@ ul {
     border-radius: 10px;
     margin-top: 16px;
 }
+
+/* second section here */
+
+#grid {
+    width: 175px;
+    height: auto;
+    border: solid 4px forestgreen;
+}
+
+.body1 {
+    margin: 30px;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+
+.photogrid {
+    align-self: stretch;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    text-align: center;
+}
+
+/* part 3 */
