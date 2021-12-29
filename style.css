@@ -5,12 +5,17 @@ body {
 }
 
 /* this is the first portion */
-.header {
+.nav {
     display: flex;
     justify-content: space-around;
     align-items: center;
     background-color: #1f2937;
     padding: 8px 8px 75px 8px;
+}
+
+#tj{
+    width: 100px;
+    height: auto;
 }
 
 ul {
